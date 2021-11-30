@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "uKlzOdkMkX7n+bywe1qK0wxge0gP3RO72CjJN++iN/GMSnJYZT05vC0emnzb0PpFkbrA6zbbjvDky6tSNF4K/w==",
+  "success": true,
+  "projectFilePath": "C:\\Sources_MVC\\AAServer React\\AAServer.Domain\\AAServer.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.8\\microsoft.extensions.caching.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.8\\microsoft.extensions.identity.core.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.8\\microsoft.extensions.identity.stores.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.logging\\3.1.8\\microsoft.extensions.logging.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

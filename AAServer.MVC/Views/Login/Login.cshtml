@@ -1,0 +1,20 @@
+﻿@{
+    var returnUrl = ViewData["ReturnUrl"] as string;
+    var error = TempData["Error"] as string;
+}
+
+@if (!string.IsNullOrEmpty(error)) 
+{
+    <h2 class="alert-danger" style="padding: 20px;"> @error </h2>
+}
+    <form action="/login?ReturnUrl=@System.Net.WebUtility.UrlEncode(returnUrl)" method="post">
+        <label>Name User:</label><br>
+        <input type="text" id="NameUser" name="NameUser"><br>
+        <label>Password:</label><br>
+        <input type="password" id="Password" name="Password"><br>
+        <input type="submit" class="btn btn-success" style="margin: 10px 0px 0px 0px;">
+    </form>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>

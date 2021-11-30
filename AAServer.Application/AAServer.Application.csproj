@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AAServer.Domain\AAServer.Domain.csproj" />
+    <ProjectReference Include="..\AAServer.Infra.Data\AAServer.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sys\Modules\DocumentSys\DocumentAp\" />
+  </ItemGroup>
+
+</Project>

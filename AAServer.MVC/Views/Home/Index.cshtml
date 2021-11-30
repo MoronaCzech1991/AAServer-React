@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <h2> Create your acount </h2>
+
+    <form action="/createAccount" method="post">
+        <label for="fname">Name:</label><br>
+        <input type="text" id="Name" name="NameUser"><br>
+
+        <label for="fname">Email:</label><br>
+        <input type="text" id="Email" name="EmailUser"><br>
+
+        <label for="lname">Password:</label><br>
+        <input type="password" id="Password" name="PasswordUser"><br>
+
+        <input type="submit" class="btn btn-success" style="margin: 10px 0px 0px 0px;">
+    </form>
+</div>
+
+<div id="root"></div>
+
+<script src="@Url.Content("~/Scripts/dist/index.js")></script>

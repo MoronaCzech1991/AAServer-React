@@ -1,0 +1,79 @@
+﻿@{
+    Layout = null;
+}
+@{
+    var nameUser = ViewData["USER_NAME"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>Welcome @nameUser</title>
+    <style>
+        .vertical-menu {
+            width: 200px; /* Set a width if you like */
+        }
+
+            .vertical-menu a {
+                background-color: #eee; /* Grey background color */
+                color: black; /* Black text color */
+                display: block; /* Make the links appear below each other */
+                padding: 12px; /* Add some padding */
+                text-decoration: none; /* Remove underline from links */
+            }
+
+                .vertical-menu a:hover {
+                    background-color: #ccc; /* Dark grey background on mouse-over */
+                }
+
+                .vertical-menu a.active {
+                    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+                    color: white;
+                }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="SystemManager" asp-action="SysIndex"> Welcome </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="SystemManager" asp-action="LogOut">Log-Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="vertical-menu">
+        <a class="active" href="#">Home</a>
+        <a asp-controller="Register" asp-action="RegisterIndex">Register</a>
+        <a asp-controller="Stock" asp-action="StockIndex">stock</a>
+        <a asp-controller="Employe" asp-action="EmployeIndex">Employes</a>
+        <a asp-controller="SellPoint" asp-action="SellPointIndex">SP</a>
+        <a asp-controller="Automation" asp-action="AutomationIndex">Automatization</a>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
