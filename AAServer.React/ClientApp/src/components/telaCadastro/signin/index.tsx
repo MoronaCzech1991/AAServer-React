@@ -2,12 +2,12 @@ import React from 'react';
 
 import * as S from './styles';
 
-const Teste = () => {
+const SignIn = () => {
   return (
     <S.Container>
-      <h1>Teste do porco</h1>
+      <h1>SignIn</h1>
     </S.Container>
   );
 };
 
-export default Teste;
+export default SignIn;
