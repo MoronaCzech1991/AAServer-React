@@ -1,9 +1,11 @@
 import React from 'react';
 
+import SignIn from './components/telaCadastro/signin';
+
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <SignIn></SignIn>
     </div>
   );
 };
