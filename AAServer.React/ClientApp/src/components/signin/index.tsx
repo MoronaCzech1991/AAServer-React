@@ -4,7 +4,7 @@ import * as S from './styles';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
-  const [pass, setPass] = useState('');
+  const [pass, setPassword] = useState('');
 
   return (
     <S.Container>
@@ -19,7 +19,7 @@ const SignIn = () => {
         type="password"
         placeholder="Password"
         value={pass}
-        onChange={(e) => setPass(e.target.value)}
+        onChange={(e) => setPassword(e.target.value)}
       />
       <S.Button> Sign-In </S.Button>
     </S.Container>
