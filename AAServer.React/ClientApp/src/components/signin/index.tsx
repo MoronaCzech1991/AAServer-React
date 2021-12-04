@@ -15,7 +15,6 @@ const SignIn = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      {console.log(setEmail)}
       <S.Input
         type="password"
         placeholder="Password"

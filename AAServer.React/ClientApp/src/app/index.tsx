@@ -1,12 +1,14 @@
 import React from 'react';
 
+import * as S from './styles';
+
 import SignIn from '../components/signin';
 
 const App = () => {
   return (
-    <div>
-      <SignIn></SignIn>
-    </div>
+    <S.Container>
+      <SignIn />
+    </S.Container>
   );
 };
 
