@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SignIn from './components/telaCadastro/signin';
+import SignIn from '../components/signin';
 
 const App = () => {
   return (
