@@ -10,7 +10,7 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: #d7d2cb;
-  box-shadow: 5px 5px 10px grey;
+  box-shadow: 5px 10px 18px grey;
 `;
 
 export const Header = styled.div`
