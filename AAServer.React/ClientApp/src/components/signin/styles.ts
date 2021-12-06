@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 400px;
-  width: 500px;
-  margin: 50px;
+  min-height: 400px;
+  min-width: 500px;
+  margin: 100px;
   border-radius: 5px;
-  border: 2px, solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,31 +13,42 @@ export const Container = styled.div`
   box-shadow: 5px 5px 10px grey;
 `;
 
+export const Header = styled.div`
+  margin: 20px;
+`;
+
+export const Title = styled.p`
+  margin: 20px;
+  font-weight: bold;
+  color: #2d2926;
+  font-size: 22px;
+`;
+
+export const Content = styled.div`
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Input = styled.input`
-  padding: 10px;
+  text-align: center;
+  margin: 20px;
   width: 350px;
-  height: 40px;
+  height: 55px;
   border: none;
   background: #f2f1f0;
   border-radius: 3px;
-  margin: 10px;
 `;
 
 export const Button = styled.button`
-  padding: 10px;
-  width: 360px;
-  height: 50px;
+  margin: 20px;
+  width: 350px;
+  height: 55px;
   border: none;
   border-radius: 8px;
   background: ${(props) => (props.color ? 'palevioletred' : '#2D2926')};
   color: #f2f1f0;
-  margin: 10px;
   font-weight: bold;
-`;
-
-export const Title = styled.p`
-  margin-bottom: 50px;
-  font-weight: bold;
-  color: #2d2926;
-  font-size: 22px;
 `;

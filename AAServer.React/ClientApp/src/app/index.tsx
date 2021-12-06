@@ -2,14 +2,16 @@ import React from 'react';
 
 import * as S from './styles';
 
-import SignIn from '../components/signin';
-import Header from '../components/header/index';
+import MainHeader from '../components/mainHeader/index';
+import SignIn from '../components/signIn/index';
+import Footer from '../components/footer';
 
 const App = () => {
   return (
     <S.Container>
-      <Header />
+      <MainHeader />
       <SignIn />
+      <Footer />
     </S.Container>
   );
 };

@@ -8,20 +8,24 @@ const SignIn = () => {
 
   return (
     <S.Container>
-      <S.Title>Welcome, AAServer!</S.Title>
-      <S.Input
-        type="email"
-        placeholder="E-mail / User Name "
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <S.Input
-        type="password"
-        placeholder="Password"
-        value={pass}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <S.Button> Sign-In </S.Button>
+      <S.Header>
+        <S.Title>Welcome!</S.Title>
+      </S.Header>
+      <S.Content>
+        <S.Input
+          type="email"
+          placeholder="E-mail"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <S.Input
+          type="password"
+          placeholder="Password"
+          value={pass}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <S.Button> Sign-In </S.Button>
+      </S.Content>
     </S.Container>
   );
 };
