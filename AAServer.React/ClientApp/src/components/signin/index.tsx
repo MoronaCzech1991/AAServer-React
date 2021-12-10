@@ -9,7 +9,7 @@ const SignIn = () => {
   return (
     <S.Container>
       <S.Header>
-        <S.Title>Welcome!</S.Title>
+        <S.Title>Sign-In</S.Title>
       </S.Header>
       <S.Content>
         <S.Input

@@ -4,13 +4,8 @@ export default createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
 
-    body {
-        display: flex;
-        flex-direction: column;
-    }
 
     html, body, #root {
        height: 100%;
