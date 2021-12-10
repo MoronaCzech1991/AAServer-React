@@ -8,8 +8,6 @@ export const Container = styled.div`
   width: 100%;
   box-shadow: 5px 5px 10px grey;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
 `;
