@@ -3,8 +3,11 @@ import React, { useState } from 'react';
 import * as S from './styles';
 
 const SignUp = () => {
+  const [name, setName] = useState('');
+  const [surname, setSurname] = useState('');
   const [email, setEmail] = useState('');
-  const [pass, setPassword] = useState('');
+  const [password, setPassword] = useState('');
+  const [repeatPassword, setRepeatPassword] = useState('');
 
   return (
     <S.Container>
@@ -15,14 +18,14 @@ const SignUp = () => {
         <S.Input
           type="name"
           placeholder="Name"
-          value={pass}
-          onChange={(e) => setPassword(e.target.value)}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
         <S.Input
           type="surname"
           placeholder="Surname"
-          value={pass}
-          onChange={(e) => setPassword(e.target.value)}
+          value={surname}
+          onChange={(e) => setSurname(e.target.value)}
         />
         <S.Input
           type="email"
@@ -33,14 +36,14 @@ const SignUp = () => {
         <S.Input
           type="password"
           placeholder="Password"
-          value={pass}
+          value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
         <S.Input
           type="password"
           placeholder="Confirm Password"
-          value={pass}
-          onChange={(e) => setPassword(e.target.value)}
+          value={repeatPassword}
+          onChange={(e) => setRepeatPassword(e.target.value)}
         />
         <S.Button> Sign-Up </S.Button>
       </S.Content>
