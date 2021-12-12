@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0f8595a3-3757-42f3-9df0-1f66aedc14cf": {
+      "ProjectGuid": "0f8595a3-3757-42f3-9df0-1f66aedc14cf",
+      "DisplayName": "AAServer.React",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
