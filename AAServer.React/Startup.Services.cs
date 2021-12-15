@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using AAServer.React.Autorizations;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AAServer.React
 {
@@ -14,6 +15,30 @@ namespace AAServer.React
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
+            });
+
+            services.AddSession();
+            services.AddMemoryCache();
+
+            // Autentication
+            services.AddAuthentication(AutorizationLevels.NAME_AUTH)
+            .AddCookie(AutorizationLevels.NAME_AUTH, options =>
+            {
+                options.Cookie.Name = AutorizationLevels.NAME_COOKIE;
+                options.LoginPath = "/login";
+                options.AccessDeniedPath = "/denied";
+            });
+
+            services.AddAuthorization(options =>
+            {
+                // Admin is the master user, can access all level and has all rights
+                options.AddPolicy(AutorizationLevels.POLICY_ADMIN_LEVEL, policy => policy.RequireRole(AutorizationLevels.ROLE_ADMIN_LEVEL));
+
+                // Manager is the middle level can do more things then employe level but is limited by the admin
+                options.AddPolicy(AutorizationLevels.POLICY_MANAGER_LEVEL, policy => policy.RequireRole(AutorizationLevels.ROLE_MANAGER_LEVEL));
+
+                // Employe is the lowest level, can do only basic things and is limited by the admin and manager user
+                options.AddPolicy(AutorizationLevels.POLICY_EMPLOYE_LEVEL, policy => policy.RequireRole(AutorizationLevels.ROLE_EMPLOYE_LEVEL));
             });
 
             // This part of code insert the interfaces 

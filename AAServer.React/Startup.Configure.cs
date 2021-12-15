@@ -28,6 +28,10 @@ namespace AAServer.React
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            app.UseAuthorization();
+            app.UseSession();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

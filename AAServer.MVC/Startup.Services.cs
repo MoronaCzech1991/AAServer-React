@@ -35,12 +35,12 @@ namespace AAServer.MVC
 
             // Autentication
             services.AddAuthentication(AutorizationLevels.NAME_AUTH)
-                .AddCookie(AutorizationLevels.NAME_AUTH, options =>
-                {
-                    options.Cookie.Name = AutorizationLevels.NAME_COOKIE;
-                    options.LoginPath = "/login";
-                    options.AccessDeniedPath = "/denied";
-                });
+            .AddCookie(AutorizationLevels.NAME_AUTH, options =>
+            {
+                options.Cookie.Name = AutorizationLevels.NAME_COOKIE;
+                options.LoginPath = "/login";
+                options.AccessDeniedPath = "/denied";
+            });
 
             services.AddAuthorization(options =>
             {
