@@ -1,22 +1,21 @@
 import React from 'react';
-
-import { BrowserRouter as Router } from 'react-router-dom';
-
 import * as S from './styles';
 
-import MainHeader from '../components/mainHeader/index';
+import MainHeader from '../components/mainHeader';
 import Content from '../components/content/index';
 import Footer from '../components/footer';
 
+import { BrowserRouter as Router } from 'react-router-dom';
+
 const App = () => {
   return (
-    <S.Container>
-      <Router>
+    <Router>
+      <S.Container>
         <MainHeader />
         <Content />
         <Footer />
-      </Router>
-    </S.Container>
+      </S.Container>
+    </Router>
   );
 };
 

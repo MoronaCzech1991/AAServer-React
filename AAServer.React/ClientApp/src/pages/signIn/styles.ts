@@ -4,7 +4,7 @@ export const Container = styled.div`
   min-height: 400px;
   min-width: 500px;
   margin: 25px;
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,19 +35,19 @@ export const Content = styled.div`
 export const Input = styled.input`
   text-align: center;
   margin: 10px;
+  border-radius: 8px;
   width: 350px;
   height: 55px;
   border: none;
   background: #f2f1f0;
-  border-radius: 3px;
 `;
 
 export const Button = styled.button`
   margin: 20px;
+  border-radius: 8px;
   width: 350px;
   height: 55px;
   border: none;
-  border-radius: 8px;
   background: ${(props) => (props.color ? 'palevioletred' : '#2D2926')};
   color: #f2f1f0;
   font-weight: bold;

@@ -1,15 +1,12 @@
 import React from 'react';
-
 import * as S from './styles';
 
-import Routes from '../../routes/index';
-
-const Content = () => {
+const Home = () => {
   return (
     <S.Container>
-      <Routes />
+      <h1>Home</h1>
     </S.Container>
   );
 };
 
-export default Content;
+export default Home;

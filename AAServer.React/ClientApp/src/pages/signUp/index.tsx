@@ -4,7 +4,6 @@ import * as S from './styles';
 
 const SignUp = () => {
   const [name, setName] = useState('');
-  const [surname, setSurname] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [repeatPassword, setRepeatPassword] = useState('');
@@ -16,16 +15,10 @@ const SignUp = () => {
       </S.Header>
       <S.Content>
         <S.Input
-          type="name"
-          placeholder="Name"
+          type="username"
+          placeholder="Username"
           value={name}
           onChange={(e) => setName(e.target.value)}
-        />
-        <S.Input
-          type="surname"
-          placeholder="Surname"
-          value={surname}
-          onChange={(e) => setSurname(e.target.value)}
         />
         <S.Input
           type="email"
@@ -45,7 +38,7 @@ const SignUp = () => {
           value={repeatPassword}
           onChange={(e) => setRepeatPassword(e.target.value)}
         />
-        <S.Button> Sign-Up </S.Button>
+        <S.Button> Register </S.Button>
       </S.Content>
     </S.Container>
   );

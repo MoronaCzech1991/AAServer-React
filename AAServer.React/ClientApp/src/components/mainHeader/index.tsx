@@ -1,8 +1,7 @@
 import React from 'react';
+import * as S from './styles';
 
 import { Link } from 'react-router-dom';
-
-import * as S from './styles';
 
 const MainHeader = () => {
   return (
@@ -10,7 +9,7 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/signIn">Home</Link>
+            <Link to="/">Home</Link>
           </li>
         </ul>
       </nav>
