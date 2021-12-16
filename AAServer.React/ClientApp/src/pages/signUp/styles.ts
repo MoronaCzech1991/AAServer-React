@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Wrapper = styled.div`
   min-height: 400px;
   min-width: 500px;
   margin: 25px;
@@ -48,7 +48,11 @@ export const Button = styled.button`
   height: 55px;
   border: none;
   border-radius: 8px;
-  background: ${(props) => (props.color ? 'palevioletred' : '#2D2926')};
+  background: ${(props) => (props.color ? 'palevioletred' : '#2d2926')};
   color: #f2f1f0;
   font-weight: bold;
+  &:hover {
+    background-color: #463f3a;
+    transition: all 0.5s ease;
+  }
 `;

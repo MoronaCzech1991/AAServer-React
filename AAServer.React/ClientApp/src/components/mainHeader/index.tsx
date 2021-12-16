@@ -6,27 +6,27 @@ import { Link } from 'react-router-dom';
 const MainHeader = () => {
   return (
     <S.Container>
-      <nav>
-        <ul>
-          <li>
+      <S.Nav>
+        <S.Ul>
+          <S.Li>
             <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/signIn">Sign-In</Link>
-          </li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/signUp">Sign-Up</Link>
-          </li>
-        </ul>
-      </nav>
+          </S.Li>
+        </S.Ul>
+      </S.Nav>
+      <S.Nav>
+        <S.Ul>
+          <S.Li>
+            <Link to="/signIn">Login</Link>
+          </S.Li>
+        </S.Ul>
+      </S.Nav>
+      <S.Nav>
+        <S.Ul>
+          <S.Li>
+            <Link to="/signUp">Register</Link>
+          </S.Li>
+        </S.Ul>
+      </S.Nav>
     </S.Container>
   );
 };

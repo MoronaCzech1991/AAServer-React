@@ -9,7 +9,7 @@ const SignUp = () => {
   const [repeatPassword, setRepeatPassword] = useState('');
 
   return (
-    <S.Container>
+    <S.Wrapper>
       <S.Header>
         <S.Title>Sign-Up</S.Title>
       </S.Header>
@@ -40,7 +40,7 @@ const SignUp = () => {
         />
         <S.Button> Register </S.Button>
       </S.Content>
-    </S.Container>
+    </S.Wrapper>
   );
 };
 

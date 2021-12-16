@@ -9,15 +9,9 @@ import Home from '../pages/home';
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/">
-      <Home />
-    </Route>
-    <Route path="/signin">
-      <SignIn />
-    </Route>
-    <Route path="/signup">
-      <SignUp />
-    </Route>
+    <Route component={Home} exact path="/"></Route>
+    <Route component={SignIn} path="/signin"></Route>
+    <Route component={SignUp} path="/signup"></Route>
   </Switch>
 );
 

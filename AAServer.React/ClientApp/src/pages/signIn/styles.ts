@@ -48,7 +48,10 @@ export const Button = styled.button`
   width: 350px;
   height: 55px;
   border: none;
-  background: ${(props) => (props.color ? 'palevioletred' : '#2D2926')};
+  background: ${(props) => (props.color ? 'palevioletred' : '#2d2926')};
   color: #f2f1f0;
   font-weight: bold;
+  &:hover {
+    background-color: #463f3a  ;
+    transition: all 0.5s ease;
 `;
