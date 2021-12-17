@@ -5,11 +5,13 @@ import MainHeader from '../components/mainHeader';
 import Content from '../components/content/index';
 import Footer from '../components/footer';
 
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Router } from 'react-router-dom';
+
+import { history } from '../pages/history';
 
 const App = () => {
   return (
-    <Router>
+    <Router history={history}>
       <S.Container>
         <MainHeader />
         <Content />
