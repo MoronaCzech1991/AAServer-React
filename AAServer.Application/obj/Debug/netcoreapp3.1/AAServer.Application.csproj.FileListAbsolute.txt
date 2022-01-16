@@ -55,3 +55,18 @@ C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Applic
 C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.csproj.CopyComplete
 C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.dll
 C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.pdb
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Application.deps.json
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Application.dll
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Application.pdb
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.dll
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Sources_MVC\AAServer React\AAServer.Application\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.pdb
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.csproj.AssemblyReference.cache
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.AssemblyInfoInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.AssemblyInfo.cs
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.csproj.CoreCompileInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.csproj.CopyComplete
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.dll
+C:\Sources_MVC\AAServer React\AAServer.Application\obj\Debug\netcoreapp3.1\AAServer.Application.pdb

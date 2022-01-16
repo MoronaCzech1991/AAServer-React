@@ -1,0 +1,10 @@
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\bin\Debug\netcoreapp3.1\AAServer.CrossCutting.deps.json
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\bin\Debug\netcoreapp3.1\AAServer.CrossCutting.dll
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\bin\Debug\netcoreapp3.1\AAServer.CrossCutting.pdb
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.csproj.AssemblyReference.cache
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.AssemblyInfoInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.AssemblyInfo.cs
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.dll
+C:\Sources_MVC\AAServer React\AAServer.CrossCutting\obj\Debug\netcoreapp3.1\AAServer.CrossCutting.pdb

@@ -1,4 +1,5 @@
 ﻿using AAServer.React.Autorizations;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AAServer.React
@@ -39,6 +40,20 @@ namespace AAServer.React
 
                 // Employe is the lowest level, can do only basic things and is limited by the admin and manager user
                 options.AddPolicy(AutorizationLevels.POLICY_EMPLOYE_LEVEL, policy => policy.RequireRole(AutorizationLevels.ROLE_EMPLOYE_LEVEL));
+            });
+
+            services.AddMvc(options =>
+            {
+                options.AllowEmptyInputInBodyModelBinding = true;
+                foreach (var formatter in options.InputFormatters)
+                {
+                    if (formatter.GetType() == typeof(SystemTextJsonInputFormatter))
+                        ((SystemTextJsonInputFormatter)formatter).SupportedMediaTypes.Add(
+                            Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse("text/plain"));
+                }
+            }).AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
             });
 
             // This part of code insert the interfaces 

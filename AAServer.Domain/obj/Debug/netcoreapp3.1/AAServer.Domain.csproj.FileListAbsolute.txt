@@ -35,3 +35,13 @@ C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Domain
 C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.csproj.CoreCompileInputs.cache
 C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.dll
 C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Sources_MVC\AAServer React\AAServer.Domain\bin\Debug\netcoreapp3.1\AAServer.Domain.deps.json
+C:\Sources_MVC\AAServer React\AAServer.Domain\bin\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Sources_MVC\AAServer React\AAServer.Domain\bin\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.csproj.AssemblyReference.cache
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.AssemblyInfoInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.AssemblyInfo.cs
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.csproj.CoreCompileInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Sources_MVC\AAServer React\AAServer.Domain\obj\Debug\netcoreapp3.1\AAServer.Domain.pdb
