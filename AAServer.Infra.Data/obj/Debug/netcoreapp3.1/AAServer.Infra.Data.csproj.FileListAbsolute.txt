@@ -37,3 +37,35 @@ C:\Sources\AAServer\AAServer.MVC\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAS
 C:\Sources\AAServer\AAServer.MVC\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.dll
 C:\Sources\AAServer\AAServer.MVC\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.pdb
 C:\Sources\AAServer\AAServer.MVC\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.genruntimeconfig.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.deps.json
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.runtimeconfig.json
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.runtimeconfig.dev.json
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.dll
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.pdb
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.AssemblyInfo.cs
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.csproj.CopyComplete
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.dll
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.pdb
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.genruntimeconfig.cache
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.deps.json
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.runtimeconfig.json
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.runtimeconfig.dev.json
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.dll
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Infra.Data.pdb
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\bin\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.csproj.AssemblyReference.cache
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.AssemblyInfoInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.AssemblyInfo.cs
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.csproj.CopyComplete
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.dll
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.pdb
+C:\Sources_MVC\AAServer React\AAServer.Infra.Data\obj\Debug\netcoreapp3.1\AAServer.Infra.Data.genruntimeconfig.cache

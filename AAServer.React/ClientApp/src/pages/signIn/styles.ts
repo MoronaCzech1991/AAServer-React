@@ -1,0 +1,57 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  min-height: 400px;
+  min-width: 500px;
+  margin: 25px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d7d2cb;
+  box-shadow: 5px 10px 18px grey;
+`;
+
+export const Header = styled.div`
+  margin: 20px;
+`;
+
+export const Title = styled.p`
+  margin: 20px;
+  font-weight: bold;
+  color: #2d2926;
+  font-size: 22px;
+`;
+
+export const Content = styled.div`
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Input = styled.input`
+  text-align: center;
+  margin: 10px;
+  border-radius: 8px;
+  width: 350px;
+  height: 55px;
+  border: none;
+  background: #f2f1f0;
+`;
+
+export const Button = styled.button`
+  margin: 20px;
+  border-radius: 8px;
+  width: 350px;
+  height: 55px;
+  border: none;
+  background: ${(props) => (props.color ? 'palevioletred' : '#2d2926')};
+  color: #f2f1f0;
+  font-weight: bold;
+  &:hover {
+    background-color: #463f3a  ;
+    transition: all 0.5s ease;
+`;

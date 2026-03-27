@@ -1,0 +1,26 @@
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Service.deps.json
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Service.dll
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Service.pdb
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.csproj.AssemblyReference.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.AssemblyInfoInputs.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.AssemblyInfo.cs
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.csproj.CoreCompileInputs.cache
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.csproj.CopyComplete
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.dll
+C:\Users\MArlonTancredo\Projetos\projeto-AAServer\AAServer-React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.pdb
+C:\Sources_MVC\AAServer React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Service.deps.json
+C:\Sources_MVC\AAServer React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Service.dll
+C:\Sources_MVC\AAServer React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Service.pdb
+C:\Sources_MVC\AAServer React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Domain.dll
+C:\Sources_MVC\AAServer React\AAServer.Service\bin\Debug\netcoreapp3.1\AAServer.Domain.pdb
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.csproj.AssemblyReference.cache
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.AssemblyInfoInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.AssemblyInfo.cs
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.csproj.CoreCompileInputs.cache
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.csproj.CopyComplete
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.dll
+C:\Sources_MVC\AAServer React\AAServer.Service\obj\Debug\netcoreapp3.1\AAServer.Service.pdb

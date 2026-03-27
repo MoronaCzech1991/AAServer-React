@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\MArlonTancredo\\.nuget\\packages\\": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MArlonTancredo\\Projetos\\projeto-AAServer\\AAServer-React\\AAServer.CrossCutting\\AAServer.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Sources_MVC\\AAServer React\\AAServer.CrossCutting\\AAServer.CrossCutting.csproj",
       "projectName": "AAServer.CrossCutting",
-      "projectPath": "C:\\Users\\MArlonTancredo\\Projetos\\projeto-AAServer\\AAServer-React\\AAServer.CrossCutting\\AAServer.CrossCutting.csproj",
-      "packagesPath": "C:\\Users\\MArlonTancredo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MArlonTancredo\\Projetos\\projeto-AAServer\\AAServer-React\\AAServer.CrossCutting\\obj\\",
+      "projectPath": "C:\\Sources_MVC\\AAServer React\\AAServer.CrossCutting\\AAServer.CrossCutting.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Sources_MVC\\AAServer React\\AAServer.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MArlonTancredo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
